@@ -1,7 +1,7 @@
 .section2{
     background-color:#0D1117;
     padding-top:120px;
-    height:95vh;
+    height:120vh;
     font-family:"Playfair Display", serif;
     border-bottom:1px solid rgb(237, 187, 47);
 }
@@ -74,13 +74,13 @@
 
 .selection{
     display:flex;
-    padding-left:100px;
+    padding-right:80px;
     padding-top:15px;
 }
 
 .selection-fonts{
     color:white;
-    padding-left:130px;
+    padding-left:50px;
     width:200px;
 }
 
@@ -104,6 +104,7 @@
     padding-left:100px;
     display:flex;
     gap:30px;
+    padding-left:115px
 }
 
 /* ==================== Oceanfront ==================== */

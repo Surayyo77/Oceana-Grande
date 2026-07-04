@@ -13,8 +13,8 @@
 .facility-cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    padding-left:60px;
+    gap: 20px;
+    padding-left:25px;
 }
 .facility-p{
     color:rgb(237, 187, 47);
