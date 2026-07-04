@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(18, 18, 69, 0.35);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+.main-navigation ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+#reserve-now{
+    padding-right:10px;
+    border:solid 1px rgb(237, 187, 47);
+    background-color:rgb(237, 187, 47);
+    color:black;
+    padding:20px;
+    border-radius:20px;
+    font-size:15px;
+    width:170px;
+}
+#reserve-now:hover{
+    cursor:pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(237, 187, 47, 0.45);
+}
+#header-hotel-h3{
+    color:white;
+    padding-left:20px;
+    font-size:25px;
+}
+#header-list{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+.section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url("images/mainbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    height: 85vh;
+    border-bottom:1px solid rgb(237, 187, 47);
+}
+.section1-h1{
+    color: white;
+    font-size: 70px;
+    letter-spacing: 3px;
+    padding-left: 50px;
+
+    
+    line-height: 1.1;
+    
+    
+}
+.section1-h4{
+    color:white;
+    
+    font-size:20px;
+    width:42%;
+    letter-spacing:2px;
+    padding-left:50px;
+}
+.section1-fonts{
+    padding-top:25px;
+}
+.explore-properties{
+    
+    background-color:transparent;
+    border: 1px solid rgba(237, 186, 47, 0.79);
+    border-radius:30px;
+    color:rgb(237,186,47,0.79);
+    padding:20px;
+    width:200px;
+    margin-top:25px;
+    margin-left:50px;
+    font-size:15px;
+}
+.explore-properties:hover{
+    cursor:pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(237, 187, 47, 0.45);   
+}

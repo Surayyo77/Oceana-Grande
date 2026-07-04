@@ -1,0 +1,366 @@
+.section2{
+    background-color:#0D1117;
+    padding-top:120px;
+    height:95vh;
+    font-family:"Playfair Display", serif;
+    border-bottom:1px solid rgb(237, 187, 47);
+}
+
+
+
+/* ==================== Exclusive Services ==================== */
+
+.exclusive-services{
+    color:white;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding-bottom:60px;
+}
+
+.exclusive-services-fonts{
+    border-right:1px solid white;
+    padding-right:40px;
+}
+
+.exclusive-services-h5{
+    color:rgba(237, 186, 47, 0.79);
+    font-size:15px;
+}
+
+.exclusive-services-h4{
+    font-size:30px;
+}
+
+.luxury-properties{
+    width:200px;
+    font-size:20px;
+    text-align:center;
+}
+
+.exclusive-services i{
+    padding-bottom:6px;
+    font-size:35px;
+    color:rgba(237, 186, 47, 0.79);
+}
+
+
+
+.virtual-tours{
+    width:200px;
+    font-size:20px;
+    text-align:center;
+}
+
+
+
+.personal-concierge{
+    width:200px;
+    font-size:20px;
+    text-align:center;
+}
+
+
+
+.secure-transactions{
+    width:200px;
+    font-size:20px;
+    text-align:center;
+}
+
+
+
+/* ==================== Featured Properties ==================== */
+
+.selection{
+    display:flex;
+    padding-left:100px;
+    padding-top:15px;
+}
+
+.selection-fonts{
+    color:white;
+    padding-left:130px;
+    width:200px;
+}
+
+.selection-h5{
+    font-size:15px;
+    color:rgba(237, 186, 47, 0.79);
+}
+
+.selection-h4{
+    font-family:"Playfair Display", serif;
+    font-size:30px;
+    border-bottom:1px solid white;
+    padding-bottom:15px;
+}
+
+.selection-p{
+    font-size:20px;
+}
+
+.types{
+    padding-left:100px;
+    display:flex;
+    gap:30px;
+}
+
+/* ==================== Oceanfront ==================== */
+
+.oceanfront{
+    background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url("images/oceanfront.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    width:280px;
+    height:380px;
+
+    border:1px solid rgba(237,186,47,.79);
+    border-radius:25px;
+
+    position:relative;
+    overflow:hidden;
+
+    transition:
+        background-size .5s ease,
+        box-shadow .5s ease;
+}
+
+.oceanfront:hover{
+    box-shadow:0 20px 40px rgba(237,186,47,.487);
+    background-size:120%;
+}
+
+.oceanfront::after{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.8) 0%,
+        rgba(0,0,0,.45) 25%,
+        transparent 55%
+    );
+
+    border-radius:25px;
+}
+
+
+.oceanfront-location{
+    display:flex;
+    gap:10px;
+    align-items:center;
+
+    position:absolute;
+    bottom:100px;
+    left:20px;
+
+    z-index:2;
+    color:white;
+
+    background:rgba(0,0,0,.4);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+
+    height:30px;
+    padding:0 12px;
+    padding-left:3px;
+
+    text-align:center;
+    font-size:15px;
+
+    border-radius:30px;
+}
+
+.oceanfront-fonts{
+    position:absolute;
+    bottom:5px;
+    left:20px;
+
+    z-index:2;
+    color:white;
+    line-height:.5;
+}
+
+
+
+.oceanfront-h2{
+    color:rgb(237,186,47);
+}
+
+/* ==================== Skyline ==================== */
+
+.skyline{
+    background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url("images/skyline.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    width:280px;
+    height:380px;
+
+    border:1px solid rgba(237,186,47,.79);
+    border-radius:25px;
+
+    position:relative;
+    overflow:hidden;
+
+    transition:
+        background-size .5s ease,
+        box-shadow .5s ease;
+}
+
+.skyline:hover{
+    box-shadow:0 20px 40px rgba(237,186,47,.487);
+    background-size:120%;
+}
+
+.skyline::after{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.8) 0%,
+        rgba(0,0,0,.45) 25%,
+        transparent 55%
+    );
+
+    border-radius:25px;
+}
+
+
+
+.skyline-location{
+    display:flex;
+    gap:10px;
+    align-items:center;
+
+    position:absolute;
+    bottom:100px;
+    left:20px;
+
+    z-index:2;
+    color:white;
+
+    background:rgba(0,0,0,.4);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+
+    height:30px;
+    padding:0 12px;
+    padding-left:3px;
+
+    text-align:center;
+    font-size:15px;
+
+    border-radius:30px;
+}
+
+.skyline-fonts{
+    position:absolute;
+    bottom:5px;
+    left:20px;
+
+    z-index:2;
+    color:white;
+    line-height:.5;
+}
+
+
+
+.skyline-h2{
+    color:rgb(237,186,47);
+}
+
+
+
+
+/* ==================== Tropik ==================== */
+
+.tropik{
+    background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url("images/tropik.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    width:280px;
+    height:380px;
+
+    border:1px solid rgba(237,186,47,.79);
+    border-radius:25px;
+
+    position:relative;
+    overflow:hidden;
+
+    transition:
+        background-size .5s ease,
+        box-shadow .5s ease;
+}
+
+.tropik:hover{
+    box-shadow:0 20px 40px rgba(237,186,47,.487);
+    background-size:120%;
+}
+
+.tropik::after{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.8) 0%,
+        rgba(0,0,0,.45) 25%,
+        transparent 55%
+    );
+
+    border-radius:25px;
+}
+
+
+.tropik-location{
+    display:flex;
+    gap:10px;
+    align-items:center;
+
+    position:absolute;
+    bottom:100px;
+    left:20px;
+
+    z-index:2;
+    color:white;
+
+    background:rgba(0,0,0,.4);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+
+    height:30px;
+    padding:0 12px;
+    padding-left:3px;
+
+    text-align:center;
+    font-size:15px;
+
+    border-radius:30px;
+}
+
+.tropik-fonts{
+    position:absolute;
+    bottom:5px;
+    left:20px;
+
+    z-index:2;
+    color:white;
+    line-height:.5;
+}
+
+
+
+.tropik-h2{
+    color:rgb(237,186,47);
+}
